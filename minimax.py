@@ -1,3 +1,10 @@
+'''
+This is the implementation of minimax which is the first time I write some code related to game and I found it is interesting.
+This algorithm can find the next best move for this game. The aim of the game is to get the highest score by color
+the map where different color has different gain and the adjacent cells cannot be colored to the same color.
+Two players take actions alternately
+'''
+
 import sys
 import heapq
 import time
